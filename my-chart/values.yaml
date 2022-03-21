@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: venkatesan06/first-repo
+  tag: 3.1
+
+service:
+  type: LoadBalancer
+  port: 8080
+
+run: myapp
+ 
